@@ -1,7 +1,7 @@
 # 🟦 Draft & Render Studio
 **High-Fidelity 3D Modeling & Intuitive GUI Design for Roblox.**
 
-Welcome to the official repository for the Draft & Render portfolio website. We specialize in bringing professional visual polish to Roblox experiences.
+Welcome to the official repository for the Draft & Render website. We specialize in bringing professional visual polish to Roblox experiences.
 
 ## 🚀 Our Services
 * **The Render:** Optimized 3D environmental assets and stylized props created in Blender.
@@ -13,10 +13,11 @@ Welcome to the official repository for the Draft & Render portfolio website. We 
 * **Hosting:** GitHub Pages
 
 ## 📅 Status: Active
-We are currently accepting new commissions. Check our live site for the latest portfolio updates.
+We are currently accepting new commissions, please join our [discord server](https://discord.gg/YvMcxEcRjY)
+. Check our live site for the latest portfolio updates.
 
 ## 🔗 Links
-* **Live Website:** [Click Here to View](https://acoolusername.github.io/draftandrender.github.io/)
+* **Live Website:** [Click Here to View](https://acoolusername12345.github.io/draftandrender.github.io/)
 * **Discord:** [Join Our Server](https://discord.gg/YvMcxEcRjY)
 
 ---
