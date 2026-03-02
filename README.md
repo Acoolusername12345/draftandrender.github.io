@@ -16,7 +16,7 @@ Welcome to the official repository for the Draft & Render portfolio website. We 
 We are currently accepting new commissions. Check our live site for the latest portfolio updates.
 
 ## 🔗 Links
-* **Live Website:** [Click Here to View](https://yourusername.github.io/draftandrender.github.io/)
+* **Live Website:** [Click Here to View](https://acoolusername.github.io/draftandrender.github.io/)
 * **Discord:** [Join Our Server](https://discord.gg/YvMcxEcRjY)
 
 ---
