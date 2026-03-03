@@ -24,8 +24,7 @@
                 overflow-x: hidden;
             }
             body {
-                /* Background with a 70% dark tint for max readability */
-                background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                background: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)), 
                             url("https://gcdnb.pbrd.co/images/fyJOG3LN1Qnf.png?o=1") no-repeat center center fixed;
                 background-size: cover;    
             }
@@ -36,19 +35,35 @@
                 border: 1px solid rgba(255, 255, 255, 0.15);
                 transition: transform 0.3s ease, background 0.3s ease;
             }
-            .input-field {
-                background: rgba(255, 255, 255, 0.05);
-                border: 1px solid rgba(255, 255, 255, 0.2);
-                color: white;
-                transition: all 0.3s ease;
-            }
-            .input-field:focus { border-color: #60a5fa; outline: none; background: rgba(255, 255, 255, 0.1); }
+           .input-field {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-field:focus {
+    border-color: #60a5fa;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 15px rgba(96, 165, 250, 0.2); /* Soft blue glow */
+    outline: none;
+}
             
-            /* Custom Scrollbar */
+            
             ::-webkit-scrollbar { width: 8px; }
             ::-webkit-scrollbar-track { background: #000; }
             ::-webkit-scrollbar-thumb { background: #3b82f6; border-radius: 10px; }
             ::-webkit-scrollbar-thumb:hover { background: #013dbd; }
+            
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield; 
+}
         </style>
     </head>
     <body class="flex flex-col items-center">
@@ -128,11 +143,11 @@
             <input type="text" name="username" placeholder="Roblox Username" class="input-field p-4 rounded-2xl" required>
             
             <select name="service" class="input-field p-4 rounded-2xl appearance-none">
-                <option value="3D Modeling">3D Modeling</option>
-                <option value="GUI Design">GUI Design</option>
-                <option value="Full Studio Bundle">Full Studio Bundle</option>
+                <option class="text-blue-400 text-[10px] font-bold uppercase tracking-widest" value="3D Modeling">3D Modeling</option>
+                <option class="text-blue-400 text-[10px] font-bold uppercase tracking-widest" value="GUI Design">GUI Design</option>
+                <option class="text-blue-400 text-[10px] font-bold uppercase tracking-widest" value="Full Studio Bundle">Full Studio Bundle</option>
             </select>
-            <input type="number" name="budget" placeholder="Maximum Spend (Robux Only!)" min="50" step="50" class="input-field p-4 rounded-2xl" required>
+            <input class="relative md:col-span-1 absolute left-4 top-1/2 -translate-y-1/2 text-blue-400 font-bold opacity-70 pointer-events-none input-field p-4 pl-12 rounded-2xl w-full appearance-none" type="number" name="budget" placeholder="Maximum Spend (R$)" min="50" step="50" class="input-field p-4 rounded-2xl" required>
             
             <textarea name="message" rows="4" placeholder="Briefly describe your vision..." class="input-field p-4 rounded-2xl md:col-span-2" required></textarea>
             
@@ -180,7 +195,7 @@
             const status = document.getElementById("form-status");
 
 form.addEventListener("submit", async function(event) {
-    event.preventDefault(); // Stop page from refreshing
+    event.preventDefault(); 
     
     const data = new FormData(event.target);
     
@@ -214,6 +229,7 @@ form.addEventListener("submit", async function(event) {
     </body>
 
 </html>
+
 
 
 
