@@ -1,156 +1,127 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Draft & Render | Roblox Creative Studio</title>
+!DOCTYPE html > <html lang = "en" > <head > <meta charset = "utf-8" > <meta http - equiv = "X-UA-Compatible"content = "IE=edge" > <title > Draft & Render | Roblox Creative Studio < /title>
         <meta name="description" content="Professional Roblox 3D Modeling and GUI Design">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <link rel="icon" href="https://gcdnb.pbrd.co/images/vTsEJvPL6ToU.png?o=1" type="image/png">
-        <link rel="apple-touch-icon" href="https://gcdnb.pbrd.co/images/vTsEJvPL6ToU.png?o=1">
+        <link rel="icon" href="https:/ / gcdnb.pbrd.co / images / vTsEJvPL6ToU.png ? o = 1 " type="image / png ">
+        <link rel="apple - touch - icon " href="https: //gcdnb.pbrd.co/images/vTsEJvPL6ToU.png?o=1">
 
-        <script src="https://cdn.tailwindcss.com"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
-        <meta name="title" content="Draft & Render | Roblox Creative Studio">
-<meta name="description" content="Professional Roblox 3D Modeling and GUI Design. Drafted with Logic, Rendered with Style. High-fidelity assets and environment optimization.">
+< script src = "https://cdn.tailwindcss.com" > </script>
+        <script src="https:/ / cdnjs.cloudflare.com / ajax / libs / gsap / 3.12.2 / gsap.min.js "></script>
+        <link href="https: //fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+< meta name = "title"content = "Draft & Render | Roblox Creative Studio" > <meta name = "description"content = "Professional Roblox 3D Modeling and GUI Design. Drafted with Logic, Rendered with Style. High-fidelity assets and environment optimization." >
 
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://acoolusername12345.github.io/">
-<meta property="og:title" content="Draft & Render | Roblox Creative Studio">
-<meta property="og:description" content="Professional Roblox 3D Modeling and GUI Design. Drafted with Logic, Rendered with Style.">
-<meta property="og:image" content="https://gcdnb.pbrd.co/images/vTsEJvPL6ToU.png?o=1">
+<meta property = "og:type"content = "website" > <meta property = "og:url"content = "https://acoolusername12345.github.io/" > <meta property = "og:title"content = "Draft & Render | Roblox Creative Studio" > <meta property = "og:description"content = "Professional Roblox 3D Modeling and GUI Design. Drafted with Logic, Rendered with Style." > <meta property = "og:image"content = "https://gcdnb.pbrd.co/images/vTsEJvPL6ToU.png?o=1" >
 
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://acoolusername12345.github.io/">
-<meta property="twitter:title" content="Draft & Render | Roblox Creative Studio">
-<meta property="twitter:description" content="Professional Roblox 3D Modeling and GUI Design. Drafted with Logic, Rendered with Style.">
-<meta property="twitter:image" content="https://gcdnb.pbrd.co/images/vTsEJvPL6ToU.png?o=1">
-        <style>      
-            html, body {
-                margin: 0; padding: 0;
-                min-height: 100vh;
-                font-family: 'Inter', sans-serif;
-                color: white;
-                scroll-behavior: smooth;
-                overflow-x: hidden;
-            }
-            body {
-                background: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)), 
-                            url("https://gcdnb.pbrd.co/images/fyJOG3LN1Qnf.png?o=1") no-repeat center center fixed;
-                background-size: cover;    
-            }
-            .glass {
-                background: rgba(255, 255, 255, 0.08);
-                backdrop-filter: blur(16px);
-                -webkit-backdrop-filter: blur(16px);
-                border: 1px solid rgba(255, 255, 255, 0.15);
-                transition: transform 0.3s ease, background 0.3s ease;
-            }
-           .input-field {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    color: white;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+<meta property = "twitter:card"content = "summary_large_image" > <meta property = "twitter:url"content = "https://acoolusername12345.github.io/" > <meta property = "twitter:title"content = "Draft & Render | Roblox Creative Studio" > <meta property = "twitter:description"content = "Professional Roblox 3D Modeling and GUI Design. Drafted with Logic, Rendered with Style." > <meta property = "twitter:image"content = "https://gcdnb.pbrd.co/images/vTsEJvPL6ToU.png?o=1" > <style > html,
+body {
+  margin: 0;
+  padding: 0;
+  min - height: 100vh;
+  font - family: 'Inter',
+  sans - serif;
+  color: white;
+  scroll - behavior: smooth;
+  overflow - x: hidden;
+}
+body {
+  background: linear - gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)),
+  url("https://gcdnb.pbrd.co/images/fyJOG3LN1Qnf.png?o=1") no - repeat center center fixed;
+  background - size: cover;
+}.glass {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop - filter: blur(16px); - webkit - backdrop - filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: transform 0.3s ease,
+  background 0.3s ease;
+}.input - field {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  transition: all 0.3s cubic - bezier(0.4, 0, 0.2, 1);
 }
 
-.input-field:focus {
-    border-color: #60a5fa;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 15px rgba(96, 165, 250, 0.2); /* Soft blue glow */
-    outline: none;
-}
-            
-            
-            ::-webkit-scrollbar { width: 8px; }
-            ::-webkit-scrollbar-track { background: #000; }
-            ::-webkit-scrollbar-thumb { background: #3b82f6; border-radius: 10px; }
-            ::-webkit-scrollbar-thumb:hover { background: #013dbd; }
-            
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+.input - field: focus {
+  border - color: #60a5fa;
+  background: rgba(255, 255, 255, 0.1);
+  box - shadow: 0 0 15px rgba(96, 165, 250, 0.2);
+  /* Soft blue glow */
+  outline: none;
 }
 
-input[type=number] {
-    -moz-appearance: textfield; 
+: :-webkit - scrollbar {
+  width: 8px;
+}: :-webkit - scrollbar - track {
+  background: #000;
+}: :-webkit - scrollbar - thumb {
+  background: #3b82f6;
+  border - radius: 10px;
+}: :-webkit - scrollbar - thumb: hover {
+  background: #013dbd;
 }
-        </style>
-    </head>
-    <body class="flex flex-col items-center">
 
-        <nav class="w-full p-6 flex justify-between items-center max-w-6xl z-50 sticky top-0">
-            <div class="text-2xl font-black tracking-tighter">DRAFT<span class="text-blue-400">&</span>RENDER</div>
-            <div class="hidden md:flex space-x-10 text-sm font-bold uppercase tracking-widest opacity-80">
-                <a href="#home" class="hover:text-blue-400 transition">Home</a>
-                <a href="#about" class="hover:text-blue-400 transition">About</a>
-                <a href="#portfolio" class="hover:text-blue-400 transition">Work</a>
-                <a href="#contact" class="hover:text-blue-400 transition">Contact</a>
-            </div>
-            <a href="https://discord.gg/YvMcxEcRjY" class="bg-blue-600 px-6 py-2 rounded-full font-bold hover:bg-blue-400 transition shadow-lg shadow-blue-500/20">JOIN DISCORD</a>
+input: :-webkit - outer - spin - button,
+input: :-webkit - inner - spin - button { - webkit - appearance: none;
+  margin: 0;
+}
+
+input[type = number] { - moz - appearance: textfield;
+} < /style>
+    </head > <body class = "flex flex-col items-center" >
+
+<nav class = "w-full p-6 flex justify-between items-center max-w-6xl z-50 sticky top-0" > <div class = "text-2xl font-black tracking-tighter" > DRAFT < span class = "text-blue-400" > &</span>RENDER</div > <div class = "hidden md:flex space-x-10 text-sm font-bold uppercase tracking-widest opacity-80" > <a href = "#home"class = "hover:text-blue-400 transition" > Home < /a>
+                <a href="#about" class="hover:text-blue-400 transition">About</a > <a href = "#portfolio"class = "hover:text-blue-400 transition" > Work < /a>
+                <a href="#contact" class="hover:text-blue-400 transition">Contact</a > </div>
+            <a href="https:/ / discord.gg / YvMcxEcRjY " class="bg - blue - 600 px - 6 py - 2 rounded - full font - bold hover: bg - blue - 400 transition shadow - lg shadow - blue - 500 / 20 ">JOIN DISCORD</a>
         </nav>
 
-<section id="home" class="min-h-screen flex flex-col items-center justify-center text-center px-6">
-    <h1 id="hero-title" class="text-5xl md:text-8xl font-black mb-6 uppercase tracking-tighter leading-none">
-        Drafted with <span class="text-blue-400 italic">Logic.</span><br>Rendered with Style.
+<section id="home " class="min - h - screen flex flex - col items - center justify - center text - center px - 6 ">
+    <h1 id="hero - title " class="text - 5xl md: text - 8xl font - black mb - 6 uppercase tracking - tighter leading - none ">
+        Drafted with <span class="text - blue - 400 italic ">Logic.</span><br>Rendered with Style.
     </h1>
-    <p id="hero-sub" class="max-w-2xl text-lg md:text-xl opacity-70 mb-10 leading-relaxed italic">
-        "Professional Roblox Environments & High-Fidelity Asset Optimization."
+    <p id="hero - sub " class="max - w - 2xl text - lg md: text - xl opacity - 70 mb - 10 leading - relaxed italic ">
+        "Professional Roblox Environments & High - Fidelity Asset Optimization."
     </p>
-    <div id="hero-btn">
-        <a href="#portfolio" class="bg-white text-black px-8 py-4 rounded-full font-bold hover:bg-blue-400 hover:text-white transition">Explore the Showcase</a>
+    <div id="hero - btn ">
+        <a href="#portfolio " class="bg - white text - black px - 8 py - 4 rounded - full font - bold hover: bg - blue - 400 hover: text - white transition ">Explore the Showcase</a>
     </div>
 </section>
 
-        <section id="about" class="py-32 px-6 w-full max-w-6xl">
-            <div class="grid md:grid-cols-2 gap-16 items-center">
-                <div class="glass p-10 rounded-[2rem] border-l-4 border-blue-500">
-                    <h2 class="text-4xl font-black uppercase mb-6 tracking-tighter text-blue-400">The Comeback</h2>
-                    <p class="text-lg opacity-80 mb-6 leading-relaxed">After a year-long hiatus, we've returned with a sharpened focus on efficiency and professional-grade quality. We noticed a gap in the market: too many games have great mechanics but lack the visual polish that keeps players coming back.</p>
-                    <div class="flex space-x-4">
-                        <div class="bg-blue-500/10 p-4 rounded-xl flex-1 text-center border border-blue-500/20">
-                            <h4 class="text-2xl font-bold text-blue-400">3D</h4>
-                            <p class="text-[10px] uppercase opacity-60">Optimized Assets</p>
+        <section id="about " class="py - 32 px - 6 w - full max - w - 6xl ">
+            <div class="grid md: grid - cols - 2 gap - 16 items - center ">
+                <div class="glass p - 10 rounded - [2rem] border - l - 4 border - blue - 500 ">
+                    <h2 class="text - 4xl font - black uppercase mb - 6 tracking - tighter text - blue - 400 ">The Comeback</h2>
+                    <p class="text - lg opacity - 80 mb - 6 leading - relaxed ">After a year-long hiatus, we've returned with a sharpened focus on efficiency and professional-grade quality. We noticed a gap in the market: too many games have great mechanics but lack the visual polish that keeps players coming back.</p>
+                    <div class="flex space - x - 4 ">
+                        <div class="bg - blue - 500 / 10 p - 4 rounded - xl flex - 1 text - center border border - blue - 500 / 20 ">
+                            <h4 class="text - 2xl font - bold text - blue - 400 ">3D</h4>
+                            <p class="text - [10px] uppercase opacity - 60 ">Optimized Assets</p>
                         </div>
-                        <div class="bg-white/5 p-4 rounded-xl flex-1 text-center border border-white/10">
-                            <h4 class="text-2xl font-bold text-white">UI</h4>
-                            <p class="text-[10px] uppercase opacity-60">Modern UX</p>
+                        <div class="bg - white / 5 p - 4 rounded - xl flex - 1 text - center border border - white / 10 ">
+                            <h4 class="text - 2xl font - bold text - white ">UI</h4>
+                            <p class="text - [10px] uppercase opacity - 60 ">Modern UX</p>
                         </div>
                     </div>
                 </div>
-                <div class="text-right flex flex-col items-end">
-                    <img src="https://gcdnb.pbrd.co/images/vTsEJvPL6ToU.png?o=1" class="w-32 h-32 mb-6 opacity-40 hover:opacity-100 transition duration-500">
-                    <h2 class="text-5xl font-black opacity-20 uppercase tracking-tighter leading-none">Our Story</h2>
-                    <p class="text-lg opacity-60 mt-4 italic max-w-sm">"Quality isn't just a render; it's the draft behind it."</p>
-                </div>
-            </div>
-        </section>
+                <div class="text - right flex flex - col items - end ">
+                    <img src="https: //gcdnb.pbrd.co/images/vTsEJvPL6ToU.png?o=1" class="w-32 h-32 mb-6 opacity-40 hover:opacity-100 transition duration-500">
+< h2 class = "text-5xl font-black opacity-20 uppercase tracking-tighter leading-none" > Our Story < /h2>
+                    <p class="text-lg opacity-60 mt-4 italic max-w-sm">"Quality isn't just a render; it's the draft behind it."</p > </div>
+            </div > </section>
 
         <section id="portfolio" class="py-20 px-6 w-full max-w-6xl">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-black uppercase tracking-tighter">Featured Work</h2>
-                <p class="opacity-50">Click an image to view full details.</p>
-            </div>
-            
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="glass p-3 rounded-2xl group cursor-pointer hover:bg-white/15">
-                    <div class="aspect-square bg-white/5 rounded-xl overflow-hidden mb-4">
-                        <img src="https://gcdnb.pbrd.co/images/EOb1gxHB9uwi.png?o=1" onclick="openLightbox(this)" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition duration-500 cursor-zoom-in">
-                    </div>
+                <h2 class="text-4xl font-black uppercase tracking-tighter">Featured Work</h2 > <p class = "opacity-50" > Click an image to view full details. < /p>
+            </div >
+
+<div class = "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" > <div class = "glass p-3 rounded-2xl group cursor-pointer hover:bg-white/15" > <div class = "aspect-square bg-white/5 rounded-xl overflow-hidden mb-4" > <img src = "https://gcdnb.pbrd.co/images/EOb1gxHB9uwi.png?o=1"onclick = "openLightbox(this)"class = "w-full h-full object-cover opacity-80 group-hover:opacity-100 transition duration-500 cursor-zoom-in" > </div>
                     <div class="px-2 pb-2">
-                        <p class="text-blue-400 text-[10px] font-bold uppercase tracking-widest">3D Asset</p>
-                        <h3 class="font-bold text-lg text-white/90">Stylized Tree</h3>
-                    </div>
-                </div>
-                </div>
-        </section>
+                        <p class="text-blue-400 text-[10px] font-bold uppercase tracking-widest">3D Asset</p > <h3 class = "font-bold text-lg text-white/90" > Stylized Tree < /h3>
+                    </div > </div>
+                </div > </section>
 
 <section id="contact" class="py-32 px-6 w-full max-w-4xl">
     <div class="glass p-10 md:p-16 rounded-[3rem] shadow-2xl">
-        <h2 class="text-4xl font-black uppercase mb-4 text-center tracking-tighter">Start a Project</h2>
-        <p class="opacity-60 text-center mb-10">Ready to build something legendary? Let's talk.</p>
+        <h2 class="text-4xl font-black uppercase mb-4 text-center tracking-tighter">Start a Project</h2 > <p class = "opacity-60 text-center mb-10" > Ready to build something legendary ? Let 's talk.</p>
         
         <form id="contact-form" action="https://formspree.io/f/xnjbkero" method="POST" class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <input type="text" name="username" placeholder="Roblox Username" class="input-field p-4 rounded-2xl" required>
@@ -206,17 +177,17 @@ input[type=number] {
 
             // Lightbox Logic
             function openLightbox(element) {
-                const lightbox = document.getElementById('lightbox');
-                const lightboxImg = document.getElementById('lightbox-img');
+                const lightbox = document.getElementById('lightbox ');
+                const lightboxImg = document.getElementById('lightbox - img ');
                 lightboxImg.src = element.src;
-                lightbox.classList.remove('hidden');
+                lightbox.classList.remove('hidden ');
                 gsap.to("#lightbox-img", { scale: 1, duration: 0.4, ease: "back.out(1.7)" });
             }
 
             function closeLightbox() {
-                const lightbox = document.getElementById('lightbox');
-                lightbox.classList.add('hidden');
-                document.getElementById('lightbox-img').style.transform = "scale(0.9)";
+                const lightbox = document.getElementById('lightbox ');
+                lightbox.classList.add('hidden ');
+                document.getElementById('lightbox - img ').style.transform = "scale(0.9)";
             }
             const form = document.getElementById("contact-form");
             const status = document.getElementById("form-status");
@@ -230,7 +201,7 @@ form.addEventListener("submit", async function(event) {
         method: form.method,
         body: data,
         headers: {
-            'Accept': 'application/json'
+            'Accept ': 'application / json '
         }
     }).then(response => {
         if (response.ok) {
@@ -239,7 +210,7 @@ form.addEventListener("submit", async function(event) {
             form.reset();
         } else {
             response.json().then(data => {
-                if (Object.hasOwn(data, 'errors')) {
+                if (Object.hasOwn(data, 'errors ')) {
                     status.innerHTML = data["errors"].map(error => error["message"]).join(", ");
                 } else {
                     status.innerHTML = "Oops! There was a problem.";
@@ -256,6 +227,12 @@ form.addEventListener("submit", async function(event) {
     </body>
 
 </html>
+
+
+
+
+'
+
 
 
 
