@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "**High-Fidelity 3D Modeling & Intuitive GUI Design for Roblox.**",
   "main": "index.js",
-  "scripts": {
+"scripts": {
+    "build": "npx @tailwindcss/cli -i ./css/input.css -o ./assets/css/main.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
