@@ -284,6 +284,7 @@
                     response.json().then(data => {
                         if (Object.hasOwn(data, 'errors')) {
                             status.innerHTML = data["errors"].map(error => error["message"]).join(", ");
+                            console.log = data["errors"].map(error => error["message"]).join(", ");
                         } else {
                             status.innerHTML = "Oops! There was a problem.";
                         }
