@@ -1,0 +1,24 @@
+{
+  "name": "draftandrender",
+  "version": "1.0.0",
+  "description": "**High-Fidelity 3D Modeling & Intuitive GUI Design for Roblox.**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acoolusername12345/draftandrender.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/acoolusername12345/draftandrender.github.io/issues"
+  },
+  "homepage": "https://github.com/acoolusername12345/draftandrender.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^4.2.1"
+  }
+}
