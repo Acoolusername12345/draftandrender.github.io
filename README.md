@@ -10,14 +10,14 @@ Welcome to the official repository for the Draft & Render website. We specialize
 ## 🛠️ Tech Stack
 * **Frontend:** HTML5, Tailwind CSS, GSAP (Animations)
 * **Design:** Blender 4.0+, Roblox Studio
-* **Hosting:** GitHub Pages
+* **Hosting:** Cloudflare Pages
 
 ## 📅 Status: Active
 We are currently accepting new commissions, please join our [discord server](https://discord.gg/YvMcxEcRjY)
 . Check our live site for the latest portfolio updates.
 
 ## 🔗 Links
-* **Live Website:** [Click Here to View](https://acoolusername12345.github.io/draftandrender.github.io/)
+* **Live Website:** [Click Here to View](https://draftandrender.pages.dev)
 * **Discord:** [Join Our Server](https://discord.gg/YvMcxEcRjY)
 
 ---
